@@ -33734,7 +33734,7 @@ A.IT.prototype={
 az(){this.ba()},
 YG(){var s,r=this,q=A.ew(r.e.a.a,null),p=A.ew(r.f.a.a,null)
 r.d=0
-for(s=q;s/p*100!==75;){++s;++p}r.d=s-q},
+for(s=q;s/p*100<75;){++s;++p}r.d=s-q},
 N(a){var s,r,q=this,p=null
 q.a.toString
 s=A.Fz("classesToAttend();",p,p,p,p,p,p)
